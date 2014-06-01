@@ -1,0 +1,9 @@
+[submodule "environments/common/firewall"]
+	path = environments/common/firewall
+	url = https://github.com/puppetlabs/puppetlabs-firewall.git
+[submodule "environments/common/nsswitch"]
+	path = environments/common/nsswitch
+	url = https://github.com/torian/puppet-nsswitch.git
+[submodule "environments/common/network"]
+	path = environments/common/network
+	url = https://github.com/ajjahn/puppet-network.git
