@@ -1,4 +1,4 @@
-class fw::nat::gateway{
+class fw::nat_gateway{
 
   #Insure Interfaces Setup
 #  network::interface{ 'eth0':
@@ -45,7 +45,7 @@ class fw::nat::gateway{
   Firewall <<|table="nat"|>>
 }
 
-class fw::nat::port(
+class fw::nat_port(
 $ports = ""
 ){
 
@@ -53,7 +53,7 @@ $ports = ""
 
 }
 
-class fw::nat::one(
+class fw::nat_one(
 $ip=false
 ){
 
