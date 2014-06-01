@@ -1,4 +1,4 @@
-class fw::nat_gateway{
+class fw::nat_gateway(){
 
   #Insure Interfaces Setup
 #  network::interface{ 'eth0':
