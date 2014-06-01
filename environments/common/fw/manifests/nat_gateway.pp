@@ -42,5 +42,5 @@ class fw::nat_gateway(){
   }
   
   #Add all 1:1 NAT and port forwarding
-  Firewall <<|table="nat"|>>
+  Firewall <<| table == "nat" |>>
 }
